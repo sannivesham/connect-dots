@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>సన్నివేశం — జతపరుచు (Match the Dots)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrap">
+    <!-- Cinematic Branded Hero Section -->
+    <div class="sannivesham-hero">
+      <div class="hero-logo-wrapper">
+        <div class="hero-emblem">
+          <img src="https://sannivesham.com/images/logo.png" alt="Sannivesham Logo" class="emblem-img">
+        </div>
+      </div>
+      <h1 class="main-brand-title">సన్నివేశం</h1>
+      <p class="main-brand-tagline">సంస్కృతి • సంప్రదాయం • సంభాషణ</p>
+    </div>
+
+    <!-- Game Section Header -->
+    <header class="site-header" style="position: relative;">
+      <div>
+        <h2>జతపరుచు (Connect the Dots)</h2>
+        <p class="subtitle">పాత్రలను వాటి విశేష ఆయుధాలు మరియు గుర్తింపులతో జతపరచండి.</p>
+      </div>
+      <a href="https://sannivesham.com" class="back-link" style="position: absolute; right: 0; bottom: 12px; color: #4CB5C9; text-decoration: none; font-size: 0.95rem;">← Back to main site</a>
+    </header>
+
+    <!-- Dynamic Level Selection Grid -->
+    <div id="levelGrid" class="level-grid"></div>
+  </div>
+
+  <script src="dots-data.js"></script>
+  <script type="module" src="progress.js"></script>
+  <script src="level-select.js"></script>
+</body>
+</html>
